@@ -1,0 +1,7 @@
+﻿namespace ConsoleUI
+{
+    class ConsoleTextWindowBuffer
+    {
+
+    }
+}
