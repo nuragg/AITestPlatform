@@ -15,7 +15,7 @@
 
         public Actor GetNextActor()
         {
-            //TODO: tutaj trzeba zrobic jakas kolejnosc wybierania z puli tych, którzy jeszcze nie skoczyli swojej tury
+            //TODO: add some kind of priority for selecting actors 
             return _mapContainer.Actors.Where(x => !x.TurnFinished).FirstOrDefault();
         }
 

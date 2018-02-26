@@ -22,7 +22,7 @@
             this.CreateGameManager = () => new GameManager(this.CreateTestWindows(), this.CreateTurnManager());
         }
 
-        //TODO: zaimplementowac buildera
+        //TODO: implement builder pattern
 
         private IConsoleWindowContainer CreateTestWindows()
         {

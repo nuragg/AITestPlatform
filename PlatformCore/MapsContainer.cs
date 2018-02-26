@@ -46,19 +46,12 @@ namespace Arena
         public void  DrawFinalTiles()
         {
 
-        }
+        }       
 
-
-
-        //TODO to jest z dupy
+        //TODO: temporary
         public Actor GetPlayer()
         {
             return Actors.OfType<Actor>().ToList().First(x => x.PlayerControlled);
         }
-
-
-
-
-
     }
 }

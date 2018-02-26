@@ -6,13 +6,13 @@ using ArenaBase;
 
 namespace ConsoleUI
 {
-    //TODO: gdzieś w tej klasie dorobić mechanike szybkiego wyświetlania znaków jeśli będzie taka potrzeba
+    //TODO: add buffering if performance drop
     public static class ConsoleWriter
     {
         public static void Write(Coordinates location, DisplayTile[][] Tiles)
         {
             string test = string.Empty;
-            //TODO: obslużyć kolory
+            //TODO: text color feature missing
             Console.SetCursorPosition(location.X, location.Y);
             for(int i=0; i<Tiles.Count(); i++)
             {
