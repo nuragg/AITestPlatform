@@ -1,4 +1,4 @@
-﻿namespace GameManager
+﻿namespace AIManager
 {
     using ArenaBase;    
     using Interfaces;
